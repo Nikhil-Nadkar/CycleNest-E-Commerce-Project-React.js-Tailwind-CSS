@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    h1{
+        @apply text-large01 font-bold max-lg:text-[64px] max-md:text-[60px] max-sm:text-[56px];
+    }
+
+    h2{
+        @apply text-large03 font-bold max-sm:text-[36px];
+    }
+
+    h3{
+        @apply text-medium font-bold max-sm:text-[18px] ;
+    }
+
+    h6{
+        @apply text-small01 font-regular;
+    }
+
+    button{
+        @apply px-[28px] py-[18px] bg-primary hover:bg-primarydark text-white text-small01 font-semi-bold rounded-sm shadow-btnshad;
+    }
+
+
+}
+
